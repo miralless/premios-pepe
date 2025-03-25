@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 3em;
+    color: #2c3e50;
+    background-color: #a59d28;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.tituloCat {
+    color: #a59d28;
+}
+
+.categoria {
+    height: 350px;
+    width: 220px;
+    background-color: #a59d28;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.categoria:hover {
+    transform: scale(1.1);
+}
+
+.selected {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.ftoCat {
+    height: 260px;
+    width: 185px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.ftoCat2 {
+    height: 185px;
+    width: 185px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.botonEnvio {
+    background-color: #a59d28;  /* Color de fondo dorado */
+    color: white;  /* Color del texto */
+    padding: 12px 25px;  /* Espaciado interno */
+    border-radius: 5px;  /* Bordes redondeados */
+    border: none;  /* Eliminar borde predeterminado */
+    cursor: pointer;  /* Cambia el cursor cuando pasa por encima */
+    text-transform: uppercase;  /* Convierte el texto a mayúsculas */
+    transition: background-color 0.3s ease, transform 0.3s ease;  /* Transición suave */
+}
+
+.botonEnvio:hover {
+    background-color: #2c3e50;  /* Color de fondo al pasar el ratón */
+    transform: scale(1.05);  /* Efecto de aumento al pasar el ratón */
+}
+
+@media screen and (max-width: 600px) {
+    .categoria {
+        height: 200px;
+        width: 120px;
+        background-color: #a59d28;
+        border-radius: 5px;
+        margin: 10px;
+        display: inline-block;
+        transition: color 0.3s ease;
+        font-family: cursive;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        font-size: 7.5px;
+    }
+
+    .categoria:hover {
+        transform: none;
+    }
+
+    .selected {
+        background-color: #2c3e50;
+        color: white;
+    }
+
+    .ftoCat {
+        height: 150px;
+        width: 100px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    
+    .ftoCat2 {
+        height: 100px;
+        width: 100px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+
+    .titulo {
+        font-size: 2em;
+        color: #2c3e50;
+        background-color: #a59d28;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .tituloCat {
+        color: #a59d28;
+        font-size: 20px;
+    }
+
+    .botonEnvio {
+        background-color: #a59d28;  /* Color de fondo dorado */
+        color: white;  /* Color del texto */
+        padding: 6px 10px;  /* Espaciado interno */
+        border-radius: 5px;  /* Bordes redondeados */
+        border: none;  /* Eliminar borde predeterminado */
+        cursor: pointer;  /* Cambia el cursor cuando pasa por encima */
+        text-transform: uppercase;  /* Convierte el texto a mayúsculas */
+        height: 40px;
+        width: 110px;
+        font-size: 12px;
+    }
+    
+    .botonEnvio:hover {
+        background-color: #a59d28;
+        transform: none;  /* Efecto de aumento al pasar el ratón */
+    }
+}
