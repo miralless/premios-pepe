@@ -92,6 +92,7 @@ body {
         padding-top: 10px;
         padding-bottom: none;
         font-size: 10px;
+        font-family:'Lucida Sans';
     }
 
     .categoria:hover {
