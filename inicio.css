@@ -73,6 +73,12 @@ body {
     transform: scale(1.05);  /* Efecto de aumento al pasar el ratón */
 }
 
+@media screen and (min-width: 600px) {
+    .categoria {
+        padding-bottom: 30px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .categoria {
         height: 200px;
