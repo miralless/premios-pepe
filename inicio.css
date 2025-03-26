@@ -95,6 +95,10 @@ body {
         font-size: 10px;
     }
 
+    .categoria tres {
+        padding-bottom: 25px;
+    }
+
     .categoria:hover {
         transform: none;
     }
