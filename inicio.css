@@ -45,6 +45,7 @@ body {
     height: 260px;
     width: 185px;
     margin-top: 10px;
+    margin-bottom: -10px;
     border-radius: 5px;
 }
 
