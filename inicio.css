@@ -86,7 +86,8 @@ body {
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 10px;
-        font-size: 8.5px;
+        padding-bottom: 0px;
+        font-size: 9px;
     }
 
     .categoria:hover {
