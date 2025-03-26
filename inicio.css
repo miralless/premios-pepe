@@ -26,7 +26,6 @@ body {
     display: inline-block;
     cursor: pointer;
     transition: color 0.3s ease, transform 0.3s ease;
-    font-family: cursive;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
