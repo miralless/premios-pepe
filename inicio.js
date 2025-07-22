@@ -47,16 +47,17 @@ function showSelected() {
         let message = `
             Cuna de oro: ${selectedCategories.cat1 || 'No seleccionado'}\n
             Correa de oro: ${selectedCategories.cat2 || 'No seleccionado'}\n
-            Chunga de oro: ${selectedCategories.cat3 || 'No seleccionado'}\n
-            Frase de oro: ${selectedCategories.cat4 || 'No seleccionado'}\n
-            Debatidor de oro: ${selectedCategories.cat5 || 'No seleccionado'}\n
-            Sticker de oro: ${selectedCategories.cat6 || 'No seleccionado'}\n
-            Kokolo de oro: ${selectedCategories.cat7 || 'No seleccionado'}\n
-            GIF de oro: ${selectedCategories.cat8 || 'No seleccionado'}\n
-            Caída de oro: ${selectedCategories.cat9 || 'No seleccionado'}\n
-            Pelo pobre de oro: ${selectedCategories.cat10 || 'No seleccionado'}\n
-            Mensaje de oro: ${selectedCategories.cat11 || 'No seleccionado'}\n
-            Personaje secundario de oro: ${selectedCategories.cat12 || 'No seleccionado'}
+            Abuelo de oro: ${selectedCategories.cat3 || 'No seleccionado'}\n
+            Chunga de oro: ${selectedCategories.cat4 || 'No seleccionado'}\n
+            Frase de oro: ${selectedCategories.cat5 || 'No seleccionado'}\n
+            Debatidor de oro: ${selectedCategories.cat6 || 'No seleccionado'}\n
+            Sticker de oro: ${selectedCategories.cat7 || 'No seleccionado'}\n
+            Kokolo de oro: ${selectedCategories.cat8 || 'No seleccionado'}\n
+            GIF de oro: ${selectedCategories.cat9 || 'No seleccionado'}\n
+            Caída de oro: ${selectedCategories.cat10 || 'No seleccionado'}\n
+            Pelo pobre de oro: ${selectedCategories.cat11 || 'No seleccionado'}\n
+            Mensaje de oro: ${selectedCategories.cat12 || 'No seleccionado'}\n
+            Personaje secundario de oro: ${selectedCategories.cat13 || 'No seleccionado'}
         `;
 
         emailjs.init('kKGnakQSDEogJI0Pa');
